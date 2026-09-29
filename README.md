@@ -1,5 +1,5 @@
-**Enterprise AI Knowledge Platform
-**
+**Enterprise AI Knowledge Platform**
+
 A secure, multi-tenant enterprise RAG platform for intelligent document question answering. The platform combines role-based access control, document versioning, semantic retrieval, cross-encoder reranking, relevance filtering, and local LLM generation to provide context-grounded answers with source citations.
 
 **Architecture**
@@ -205,8 +205,7 @@ Tenant-scoped document operations
 
 Protected upload and indexing endpoints
 
-**Tech Stack
-**
+**Tech Stack**
 
 Python
 
@@ -262,6 +261,5 @@ Hugging Face / Sentence Transformers
 **Open API documentation
 **
 http://127.0.0.1:8000/docs
-pytest -q
 
 The project includes tests covering document extraction, chunking, embeddings, authentication/security, and core application functionality.

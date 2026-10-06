@@ -5,39 +5,6 @@ A secure, multi-tenant enterprise RAG platform for intelligent document question
 **Architecture**
 <img width="1536" height="1024" alt="Enterprise RAG Platform Architecture" src="https://github.com/user-attachments/assets/adbe16f7-ccfe-4bfd-8967-37642ffb5663" />
 
-
-                         Enterprise AI Knowledge Platform
-                                      │
-                         ┌────────────┴────────────┐
-                         │                         │
-                  JWT Authentication       Multi-Tenancy
-                         │                         │
-                         └────────────┬────────────┘
-                                      ↓
-                             Document Management
-                                      │
-                         Versioning + Metadata
-                                      ↓
-                               Document Ingestion
-                            PDF / DOCX / TXT
-                                      ↓
-                              Structure-Aware
-                                  Chunking
-                                      ↓
-                              BGE Embeddings
-                                      ↓
-                              Qdrant Vector DB
-                                      ↓
-                         Tenant-Filtered Retrieval
-                                      ↓
-                         Cross-Encoder Reranking
-                                      ↓
-                              Relevance Guard
-                                      ↓
-                         Qwen 2.5 Local LLM
-                                      ↓
-                          Answer + Source Citations
-
 **Key Features**
 
 Enterprise Security

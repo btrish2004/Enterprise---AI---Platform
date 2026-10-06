@@ -3,6 +3,8 @@
 A secure, multi-tenant enterprise RAG platform for intelligent document question answering. The platform combines role-based access control, document versioning, semantic retrieval, cross-encoder reranking, relevance filtering, and local LLM generation to provide context-grounded answers with source citations.
 
 **Architecture**
+<img width="1536" height="1024" alt="Enterprise RAG Platform Architecture" src="https://github.com/user-attachments/assets/adbe16f7-ccfe-4bfd-8967-37642ffb5663" />
+
 
                          Enterprise AI Knowledge Platform
                                       │
